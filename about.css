@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    background-color: #4B0F80;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.center-navbar{
+    display: flex;
+    justify-content: center;
+}
+.home,.news,.about{
+    color: white;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+.about{
+    background-color: #DE7000;
+}
+.home:hover,.news:hover{
+    background-color: #DE7000;
+    transition: .5s;
+}
+.hapus{
+    clear: both;
+}
+.fixed{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+.logo-label{
+    text-align: center;
+}
+.about-logo{
+    width: 400px;
+    margin-top: 150px;
+    margin-bottom: 110px;
+}
+.about-logo-label{
+    width: 400px;
+    margin-bottom: 110px;
+}
+.info-pengembang{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 24px;
+    color: #4B0F80;
+}
+p{
+    display: inline-block;
+}
+.kiri{
+    width: 40%;
+    display: inline-block;
+    font-weight: bold;
+}
+.tujuan-kiri{
+    float: left;
+    width: 40%;
+    font-weight: bold;
+}
+.tujuan-kanan{
+    width: 100%;
+    text-align: justify;
+}
+hr{
+    height: 1px;
+    border: none;
+    background-color: #DE7000;
+}
